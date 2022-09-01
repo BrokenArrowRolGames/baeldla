@@ -1,1 +1,55 @@
-/* You can add global styles to this file, and also import other style files */
+/* Iconos de Bootstrap */
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css");
+
+/* Fondo de la Web y fondos adicionales */
+body{
+    position: relative;
+    background-image: url("./assets/imagenes/fondos/fondoweb.jpg");
+}
+
+.fondo-marmol{
+    background-image: url("./assets/imagenes/fondos/fondoweb.jpg");
+}
+
+/* Margenes agregados */
+
+.ml-25{
+    margin-left: 25px;
+}
+
+.mt-57{
+    margin-top: 57px;
+}
+
+/* Parrafos texto y separadores */
+
+P {
+    line-height:30px;  
+    text-align:justify;
+}
+
+hr {
+    border: 1px solid red;
+}
+
+.rojo-carmesi {
+    color:darkred;
+}
+
+/* caja del Aside derecho */
+
+.caja-fixed {
+    position : sticky;
+    top: 0;
+    margin-top: 70px;
+    padding-top: 70px;
+    bottom: 0;
+    padding-bottom: 70px;        
+}
+
+
+.alone{
+    color:white;
+    background-color: maroon;
+    text-shadow: 3px 3px 5px black;
+}
