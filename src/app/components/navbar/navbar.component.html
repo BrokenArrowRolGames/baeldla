@@ -4,15 +4,21 @@
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav">
-            <li class="nav-item ml-25">
-                <a class="nav-link" [routerLink]="['/masterhome']">Compendio DungeonMaster</a>
+          <li class="nav-item ml-25">
+              <a class="nav-link" [routerLink]="['/iniciohome']">Compendio Inicio</a>
             </li>
             <li class="nav-item ml-25">
-              <a class="nav-link" [routerLink]="['/playerhome']">Compendio Jugador</a>
+              <a class="nav-link" [routerLink]="['/ruleshome']">Compendio Reglas</a>
           </li>
+          <li class="nav-item ml-25">
+            <a class="nav-link" [routerLink]="['/playerhome']">Compendio Jugador</a>
+           </li>
             <li class="nav-item ml-25">
-                <a class="nav-link" [routerLink]="['/ruleshome']">Compendio Reglas</a>
+                <a class="nav-link" [routerLink]="['/masterhome']">Compendio Dungeon Master</a>
             </li>
+            <li class="nav-item ml-25">
+              <a class="nav-link" [routerLink]="['/lorehome']">Compendio Lore</a>
+          </li>
         </ul>
       </div>
     </div>

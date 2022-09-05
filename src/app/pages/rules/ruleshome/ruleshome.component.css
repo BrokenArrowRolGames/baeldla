@@ -3,3 +3,32 @@
     text-decoration: red;
     -webkit-text-size-adjust: 50px;
 }
+
+body{
+    position: relative;
+}
+
+.bgblue{
+    border: black;
+    border-color: black;
+    border-width: 50px;
+    border-radius: 100px;
+    border-top-width: 200px;
+  
+}
+
+a:hover{
+    color: yellow;
+    background-color: blue;
+}
+
+a:focus{
+    color: black;
+    background-color: coral;
+}
+
+a:target{
+    color: black;
+    background-color: coral;
+    
+}
